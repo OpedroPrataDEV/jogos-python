@@ -23,3 +23,6 @@ Thumbs.db
 # Biblioteca PPlay (de terceiros), nao versionada aqui
 PPlay/
 Power-PPlay-main/
+
+# Ranking local do Space Invaders (gerado ao jogar; tem nomes dos jogadores)
+space-invaders/ranking.txt
