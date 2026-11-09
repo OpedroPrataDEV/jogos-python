@@ -79,19 +79,19 @@ while True:
         #Movimento Teclado Jogador
         if teclado.key_pressed("UP") and pad_esquerdo.y>0:
             #Respeitando o teto (>0)
-            pad_esquerdo.y-=vel_pad*dt
+            pad_esquerdo.y=max(0,pad_esquerdo.y-vel_pad*dt)
         if teclado.key_pressed("DOWN") and pad_esquerdo.y+pad_esquerdo.height<janela.height:
             #Respeitando o chão(<0)
-            pad_esquerdo.y+=vel_pad*dt
+            pad_esquerdo.y=min(janela.height-pad_esquerdo.height,pad_esquerdo.y+vel_pad*dt)
 
         #Movimento da IA
         centro_ia=pad_direito.y+(pad_direito.height/2) #Pega exatamente o centro
         centro_bolinha=bolinha.y+(bolinha.height/2)
         #Logica de movimento baseada no alinhamento do meio do pad da IA e da bolinha
         if centro_ia>centro_bolinha and pad_direito.y>0:
-            pad_direito.y-=vel_pad*dt
+            pad_direito.y=max(0,pad_direito.y-vel_pad*dt)
         elif centro_ia<centro_bolinha and pad_direito.y+pad_direito.height<janela.height:
-            pad_direito.y+=vel_pad*dt
+            pad_direito.y=min(janela.height-pad_direito.height,pad_direito.y+vel_pad*dt)
 
         #Colisão com os Pads
         if bolinha.collided(pad_direito):
@@ -125,10 +125,10 @@ while True:
         # Movimento Teclado Jogador
         if teclado.key_pressed("UP") and pad_esquerdo.y > 0:
             # Respeitando o teto (>0)
-            pad_esquerdo.y -= vel_pad * dt
+            pad_esquerdo.y=max(0,pad_esquerdo.y-vel_pad*dt)
         if teclado.key_pressed("DOWN") and pad_esquerdo.y + pad_esquerdo.height < janela.height:
             # Respeitando o chão(<0)
-            pad_esquerdo.y += vel_pad * dt
+            pad_esquerdo.y=min(janela.height-pad_esquerdo.height,pad_esquerdo.y+vel_pad*dt)
 
 
         if donobola=='jogador':
