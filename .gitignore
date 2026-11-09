@@ -19,3 +19,7 @@ env/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Biblioteca PPlay (de terceiros), nao versionada aqui
+PPlay/
+Power-PPlay-main/

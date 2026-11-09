@@ -12,7 +12,7 @@ Jogos que desenvolvi em Python com as bibliotecas **Pygame** e **PPlay**.
 
 - Python 3
 - [Pygame](https://www.pygame.org/): `pip install pygame`
-- PPlay (biblioteca de jogos sobre o Pygame). A pasta `PPlay/` precisa estar ao lado do arquivo do jogo.
+- PPlay, na versão [Power-PPlay 2.0](https://github.com/Kronohdev) (Kronohdev, licença MIT). Ela não está incluída neste repositório: baixe e coloque a pasta `PPlay/` ao lado do arquivo do jogo (por exemplo, `pong/PPlay/`).
 
 ## Como executar
 
