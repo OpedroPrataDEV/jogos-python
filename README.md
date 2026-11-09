@@ -7,6 +7,7 @@ Jogos que desenvolvi em Python com as bibliotecas **Pygame** e **PPlay**.
 | Jogo | Pasta | Descrição |
 |------|-------|-----------|
 | Pong | `pong/` | Pong contra uma IA, com placar, pausa após o gol e bolinha que acelera a cada rebatida. |
+| Space Invaders | `space-invaders/` | Nave contra hordas de monstros, com menu, três dificuldades, fases, vidas e ranking dos 5 melhores. |
 
 ## Dependências
 
@@ -16,9 +17,22 @@ Jogos que desenvolvi em Python com as bibliotecas **Pygame** e **PPlay**.
 
 ## Como executar
 
+Cada jogo fica na sua pasta e deve ser executado de dentro dela, porque lê imagens e arquivos pelo caminho relativo.
+
+### Pong
+
 ```bash
 cd pong
 python PongCompleto.py
 ```
 
-Controles do Pong: setas `↑` e `↓` movem a raquete da esquerda e `Espaço` continua o jogo depois de um gol.
+Setas `↑` e `↓` movem a raquete da esquerda e `Espaço` continua o jogo depois de um gol.
+
+### Space Invaders
+
+```bash
+cd space-invaders
+python main.py
+```
+
+O menu é controlado com o mouse. No jogo, setas `←` e `→` movem a nave, `Espaço` atira e `Esc` volta ao menu. Ao perder todas as vidas, o nome para o ranking é digitado no terminal. O arquivo `ranking.txt` é criado ao jogar e não é versionado.
