@@ -34,6 +34,6 @@ Setas `↑` e `↓` movem a raquete da esquerda e `Espaço` continua o jogo depo
 cd space-invaders
 python main.py
 ```
-Link Teaser: https://www.youtube.com/watch?v=9ACkjCx5Ki0
+
 
 O menu é controlado com o mouse. No jogo, setas `←` e `→` movem a nave, `Espaço` atira e `Esc` volta ao menu. Ao perder todas as vidas, o nome para o ranking é digitado no terminal. O arquivo `ranking.txt` é criado ao jogar e não é versionado.
