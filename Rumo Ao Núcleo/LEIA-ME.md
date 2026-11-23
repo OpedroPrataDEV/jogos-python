@@ -76,5 +76,7 @@ Em `config.py` (ou pela linha de comando `python main.py --debug --todas`):
 - `DEBUG = True` → `N` pula a fase, `L` +1 vida, `H` esquenta a broca, `K` +100 de minério.
 - `DESBLOQUEAR_TODAS_FASES = True` → libera todas as fases no menu.
 - `AUTOR = "Seu Nome"` → aparece nos créditos.
+- Link Teaser: https://www.youtube.com/watch?v=9ACkjCx5Ki0
+- Link do jogo no ITCH.IO: https://opedroprata.itch.io/rumo-ao-nucleo
 
 Bom jogo! ⛏️🔥
