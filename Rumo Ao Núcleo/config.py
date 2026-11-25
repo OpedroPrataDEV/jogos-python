@@ -32,5 +32,5 @@ RAIO_BROCA = 13
 VIDAS_BASE = 3
 VIDAS_MAX = 7
 
-AUTOR = "Seu Nome Aqui"          # aparece na tela de créditos
+AUTOR = "Pedro Prata & Rodrigo Vargas"          # aparece na tela de créditos
 TITULO_JANELA = "Rumo ao Núcleo"
